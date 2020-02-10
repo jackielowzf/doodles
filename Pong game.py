@@ -41,7 +41,7 @@ ball.goto(0, 0)
 ball.dx = 0.5
 ball.dy = -0.5
 
-#Pen
+#Writing Scores
 pen = turtle.Turtle()
 pen.speed(0)
 pen.color("white")
@@ -71,7 +71,7 @@ def paddleB_down():
     y -= 20
     paddleB.sety(y)
 
-#Keyboard bining
+#Keyboard binding
 wn.listen()
 wn.onkeypress(paddleA_up, "w")
 wn.onkeypress(paddleA_down, "s")
