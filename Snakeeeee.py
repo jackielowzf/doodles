@@ -199,7 +199,7 @@ def main():
         for x in range(len(s.body)):
             if s.body[x].pos in list(map(lambda z:z.pos,s.body[x+1:])):
                 message_box('You Lost!',\
-                    'Score: ' + str(len(s.body)) + ' Play again?')
+                    ' Score: ' + str(len(s.body)) + '\n Thanks for playing Snake by Jackie Low' + '\n Play again?')
                 s.reset((10,10))
                 break
 
